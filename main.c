@@ -1,10 +1,18 @@
+/*
+ * @Description: 
+ * @Author: JesonKid
+ * @version: 
+ * @Date: 2021-10-10 13:11:53
+ * @LastEditors: JesonKid
+ * @LastEditTime: 2021-10-10 21:50:53
+ */
 #include "time.h"
 #include "stdint.h"
 #include "stdio.h"
 #include "bget/bget.h"
 #include "windows.h"
 
-#define POOL_SIZE    10*1024
+#define POOL_SIZE    20*1024
 
 int main()
 {
@@ -12,6 +20,7 @@ int main()
 	LARGE_INTEGER time_over;	//结束时间
 	double dqFreq;		//计时器频率
 	LARGE_INTEGER f;	//计时器频率
+	
 	void* pool = NULL;
 	double total_allocate_time = 0;
 	double total_release_time = 0;
