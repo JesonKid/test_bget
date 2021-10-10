@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(Debug\)包含从另一个项目(Project3.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  bget.c
+C:\Users\10799\Desktop\cpp\Project3\bget\bget.c(693,11): warning C4018: “>”: 有符号/无符号不匹配
+C:\Users\10799\Desktop\cpp\Project3\bget\bget.c(1113,46): warning C4047: “函数”:“const size_t”与“char [6]”的间接级别不同
+C:\Users\10799\Desktop\cpp\Project3\bget\bget.c(1113,39): warning C4024: “sprintf_s”: 形参和实参 2 的类型不同
+C:\Users\10799\Desktop\cpp\Project3\bget\bget.c(1113,56): warning C4047: “函数”:“const char *const ”与“unsigned char”的间接级别不同
+C:\Users\10799\Desktop\cpp\Project3\bget\bget.c(1113,53): warning C4024: “sprintf_s”: 形参和实参 3 的类型不同
+C:\Users\10799\Desktop\cpp\Project3\bget\bget.c(1558,53): warning C4244: “=”: 从“double”转换到“bufsize”，可能丢失数据
+C:\Users\10799\Desktop\cpp\Project3\bget\bget.c(1488,1): warning C4244: “初始化”: 从“double”转换到“bufsize”，可能丢失数据
+  main.c
+  正在生成代码...
+  Project3.vcxproj -> C:\Users\10799\Desktop\cpp\Project3\Debug\test_bget.exe
